@@ -15,7 +15,7 @@ while a == 'yes':
   else:
      C = input("Enter the operator: ")
      c = float(input("Enter a Number: "))
-     history.write(C+str(c))
+     history.write(str(result)+C+str(c))
   if C == '+':
     if b == 0:
       result = A + B
